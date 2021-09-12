@@ -1,0 +1,24 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"bgm", file="bgm118_2"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_aix_sys01", ch="aix"},
+				{"vo", file="fem_shi_sys01", ch="shi"},
+				{"vo", file="fem_rei_sys01", ch="rei"},
+				{"vo", file="fem_sak_sys01", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"纱希"},
+				},
+			},
+		},
+		line = 8,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}

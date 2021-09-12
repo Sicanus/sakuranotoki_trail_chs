@@ -1,0 +1,2882 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅰ章"},
+		{"bg", file="アイキャッチ01", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans"},
+		{"ex", time=5000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bg", time=2000, file="ev_etc_01_01", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"bgm", file="bgm149"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那已经是多久以前的事情了？",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 28,
+	},
+	block_00001 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为有些太古老了我都快忘了，应该是我还在弓张学园上二年级的时候的事情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 31,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"鸟谷静流。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 34,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是我的本名。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 37,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从我的姓氏鸟谷就可以看出，现任弓张学园校长鸟谷纱希是我的阿姨。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 40,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然这么说，但那个时候的纱希阿姨还不姓鸟谷而是姓中村。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 43,
+	},
+	block_00006 = {
+		{"msgoff"},
+		{"colortone", mode="gray"},
+		{"bg", file="bg028a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"学校的理事长是中村章一。",
+					{"rt2"},
+					"是纱希阿姨的丈夫。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 59,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"中村家是弓张里相当有影响力的名家，更是弓张学园的拥有者，所以在这所学校里中村家的人受到了格外好的优待。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 62,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我虽然是鸟谷家的人，但因为阿姨的关系，我在这个学校里也被当做是中村家的人看待。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 65,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这就是为什么有的人能够在学校里表现得像个公主一样，",
+					{"rt2"},
+					"甚至能做出宛如暴君一般的事情来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 69,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我对这种优待既没有好感也没有坏感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 72,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我既不是特别和班上的人合得来，但是也不是特别合不来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 75,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"比起这些事情，我是出于其他理由才对弓张学园情有独钟的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 78,
+	},
+	block_00013 = {
+		{"msgoff"},
+		{"colortone", mode="reset"},
+		{"bg", file="bg030a", path=":bg/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在整个日本，拥有登窑的学校并不多。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 90,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"至于为什么，那是因为登窑这类东西实在是太大了。",
+					{"rt2"},
+					"再说，用一次就要烧不得了数量的木柴，成本实在是太高了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 94,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"现在有很多质量好的煤气窑，不需要建造登窑这样的东西。如果想要同时做十几件陶瓷器，那就煤气窑就更显得方便了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 97,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"事实上，弓张也有几个用来制作陶瓷器的煤气窑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 100,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那这样的话，为什么弓张会有登窑存在呢？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 103,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不论如何，这里的登窑看起来都要比这个学园本身更古老。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 106,
+	},
+	block_00019 = {
+		{"bg", speed=150000, file="zbg030a", path=":bg/", x2=960, y2=-200, x=-960, y=-200, ax=1920, ay=1080, bx=-960, by=-540},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"早在学校成立之前，这座弓张之丘就已经是许多宗教建筑的所在地。",
+					{"rt2"},
+					"听说登窑也是为了宗教仪式为目的而建造的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 113,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最开始的时候当然不是这个样子的登窑。",
+					{"rt2"},
+					"据说最早是一个穴窑，先是在山丘的斜面开洞然后用土封住天花板这样构造的窑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 117,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"现在的登窑是在明治时代修建的，并且还进行了大规模修缮。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 120,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"根据传说，将梦境转化为水的器皿是在弓张的这座山丘上制造的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 123,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话虽如此，因为太过神秘了，这些神话传说对我来说是怎么都好的故事。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 126,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我虽然对于学习没什么兴趣，",
+					{"rt2"},
+					"但是我很喜欢烧陶瓷器具，所以自从入学以来一直很开心。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 130,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本来我就擅长美术，所以以前我一直想在美术界名门的弓张学园读书。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 133,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"弓张虽然没有专门的美术科，但是它的美术部可谓是人才辈出。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 136,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因此，这里的美术老师似乎大多都是十分了得的人。",
+					{"rt2"},
+					"我在学校的时候，也有一位很好的美术老师。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 140,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然而，这位老师并不是陶艺专家，所以他不厌其烦地邀请他大学时代的一位陶艺家朋友。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 144,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那位老师在这方面有着广大的关系网，还能为学生请来陶艺家，",
+					{"rt2"},
+					"一定是因为他出生自某个艺术界名门。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 148,
+	},
+	block_00030 = {
+		{"bg", file="bg030a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"陶艺家老师最早不是弓张学园的学生。",
+					{"rt2"},
+					"起初，他不是很热衷于教导学生，但似乎来到弓张学园之后，",
+					{"rt2"},
+					"他的想法改变了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 156,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"再怎么说，这位陶艺家先生也是人间国宝",
+					{"ruby", text="くべひゃくだい"},
+					"久部百大",
+					{"/ruby"},
+					"先生的弟子，好像获得了三十代文展的文展会员奖。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 160,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"文展是明治时代开始一直未曾中断的、被称为日本艺术的最高展会的「文部科学省美术展览会」的略称，那个文展的会员获奖者似乎都很伟大（实际上到底有多么伟大我也不是很清楚）。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 163,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即使是这样一位伟大的老师，也被这个登窑所吸引，每周都会从其他县城远道而来，",
+					{"rt2"},
+					"到弓张学园里面来几次。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 167,
+	},
+	block_00034 = {
+		{"msgoff"},
+		{"bg", file="zbg030a", path=":bg/", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"fg", ch="吉沢", size="z1", mode=3, resize=1, path=":fg/yos/z1/", file="yos_z1a0000", face="a0001", head="yos_z1a", lv=4, id=9, sync=0},
+		{"bg", alpha=255, lv=1, id=5, rule="cinema", file="cinema01", time=400, path=":sys/", vague=40, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"名字是吉泽绿寺。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 180,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他现在已经成了一个非常著名的陶艺家。假如其他人知道我是他的学生，一定会非常惊讶的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 186,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"吉泽老师教会了我很多的事情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 189,
+	},
+	block_00037 = {
+		{"fg", ch="吉沢", size="z1", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0010", head="yos_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00064", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「首先，为什么这里会有窑？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 194,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00065", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「不，是为了制作陶器的吧？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 197,
+	},
+	block_00039 = {
+		{"fg", ch="吉沢", size="z1", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0004", head="yos_z1a", lv=4, id=9},
+		{"fgact", ch="吉沢", act="いいえ", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00066", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「不是这样。你根本什么都没明白。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 203,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00067", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「这个，大概不明白吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 206,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"老师说。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 209,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「在有着优质的土的地方，就会建造窑。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 215,
+	},
+	block_00043 = {
+		{"bg", file="bg030a", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在陶艺界有名的地方，旁边必然有优质的土。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 221,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个弓张之丘的土似乎也是极其珍贵罕见的存在。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 224,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在一座被称之为伯奇神社的建筑物旁边，有一条小溪静静地流淌着。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 227,
+	},
+	block_00046 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"若是顺着小溪的方向行走——",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 233,
+	},
+	block_00047 = {
+		{"bg", speed=120000, file="zbg057a", path=":bg/", x2=0, y2=-540, x=0, y=0, ax=1920, ay=1080, bx=-960, by=-540},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"瀑布看起来就像一个断层被暴露出来一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 243,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"倒不是什么很大的瀑布。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 246,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在环绕它的断层中，只有一层不可思议的土。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 249,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"传统的说法是，千年樱的雨形成了一层不可思议的粘土。",
+					{"rt2"},
+					"老师推测，这可能是后来才有的传说，因为这里的土太优质了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 253,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"事实上，老师曾请求大学制作一份成分表，据说成分非常复杂和特殊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 256,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"特别是弓张的土做成的",
+					{"ruby", text="ゆうやく"},
+					"釉药",
+					{"/ruby"},
+					"有着独特的颜色，其他类别的土都没有这个效果。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 259,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"根据吉泽老师的说法，这被称为弓张釉药。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 262,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为只有薄薄的一层，因此非常珍贵。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 265,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也许，如果人们继续采集这些土壤，断层本身就会消失，变成一条沿着山坡流淌的小溪。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 268,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大多数制作陶器的人都是从供应商那里购买粘土的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 271,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我做陶器的时候大抵也是这样，但老师不一样。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 274,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"弓张有一个水车小屋，里面有一个铁杵和臼。",
+					{"rt2"},
+					"这个据说是被称为唐臼，形状像一个跷跷板，通常用脚踏的力量来驱动，",
+					{"rt2"},
+					"但是这里的臼是用水车的力量驱动的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 279,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从断层上精心刮下的粗糙泥土被投入其中，并被越推越远。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 282,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"通常情况下，这个工作要用锤子来完成，但在弓张之丘上有这样一台设备。",
+					{"rt2"},
+					"虽然听说九州地方之类的有不少唐臼之类的东西，然而在这种地方应该是很罕见的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 286,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"老师说，这个不是弓张自古以来的东西，而是最近才建造的。",
+					{"rt2"},
+					"理由是，它的设计太过现代了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 290,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后就是",
+					{"ruby", text="すいひ"},
+					"水簸",
+					{"/ruby"},
+					"的工作。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 294,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是一个将土壤与水混合的过程，可以剔除杂质。",
+					{"rt2"},
+					"在这个时候，要尽可能地剔除粗糙的土壤。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 298,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然用了滤网，但即使如此，仍然会有杂质残留下来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 301,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大约三天后，土壤沉淀之后，残留物就会被丢弃。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 304,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"将这个",
+					{"ruby", text="はいど"},
+					"坏土",
+					{"/ruby"},
+					"用布包起来以吸收水分。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 308,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"坏土才是正所谓陶瓷器的基底部分。",
+					{"rt2"},
+					"根据坏土的不同成分，可以烧制出不同的陶瓷器的基底。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 313,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就这样就可以制作成弓张的坏土。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 317,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后用塑料布盖住并静置。",
+					{"rt2"},
+					"放置几个月后，它会变得粘稠，极其容易塑形。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 321,
+	},
+	block_00070 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg057a", path=":bg/", sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后就是反复揉捏陶土的工作了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 332,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最开始学习到的是技术是荒练。虽然这只是一个使粘土达到软硬差不多均衡的工作，",
+					{"rt2"},
+					"但对于身为女孩子的我来说仍然不是个轻松的活。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 336,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"陶艺家老师做这个活的话就可以做出非常漂亮且均一的土。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 339,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"下一道公序是菊练。",
+					{"rt2"},
+					"这是一个把空气从粘土里榨出来的过程，相当费力。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 343,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当荒练和菊练的公序都被好好地完成之后，",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 346,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"接下来终于能够制作陶土了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 349,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当粘土经过菊练公序后变得柔软、易于使用的时候，",
+					{"rt2"},
+					"在其他人看来一模一样的粘土，似乎变成了完全不同的东西。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 354,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"由于我是女孩子，所以被教导要特别小心地进行菊练。",
+					{"rt2"},
+					"我被要求菊练完成后的粘土要比别人的多三倍褶皱。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 358,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"由于一直接触着弓张的粘土，我逐渐明白了从商人那里买来的粘土和弓张粘土的区别了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 362,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我也总算明白为什么老师要从其他县远道而来了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 365,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这时，我已经真正爱上了这片土地。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 368,
+	},
+	block_00081 = {
+		{"bg", file="ev_etc_01_01", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在弓张读书的时候，我利用空闲时间，去看了关东栃木县的",
+					{"ruby", text="ましこやき"},
+					"益子烧",
+					{"/ruby"},
+					"和茨城县的",
+					{"ruby", text="かさまやき"},
+					"笠间烧",
+					{"/ruby"},
+					"。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 376,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也去看了从古代开始就已经很有名的岐阜县的",
+					{"ruby", text="みのやき"},
+					"美浓烧",
+					{"/ruby"},
+					"。然后看了被称之为",
+					{"ruby", text="にほんろっこよう"},
+					"日本六古窑",
+					{"/ruby"},
+					"的爱知县的",
+					{"ruby", text="せとやき"},
+					"濑户烧",
+					{"/ruby"},
+					"和",
+					{"ruby", text="とこなめやき"},
+					"常滑烧",
+					{"/ruby"},
+					"、福井县的",
+					{"ruby", text="えちぜんやき"},
+					"越前烧",
+					{"/ruby"},
+					"、滋贺县的",
+					{"ruby", text="しがらきやき"},
+					"信乐烧",
+					{"/ruby"},
+					"、兵库县的",
+					{"ruby", text="たんばたちくいやき"},
+					"丹波立杭烧",
+					{"/ruby"},
+					"、冈山县的",
+					{"ruby", text="びぜんやき"},
+					"备前烧",
+					{"/ruby"},
+					"。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 386,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"之后更是看了佐贺县的",
+					{"ruby", text="からつやき"},
+					"唐津烧",
+					{"/ruby"},
+					"和山口县的",
+					{"ruby", text="はぎやき"},
+					"萩烧",
+					{"/ruby"},
+					"之类的陶器。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 391,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"由于我不止对土物（陶器）感兴趣，对于石物（瓷器）也有很深刻的兴趣的缘故，",
+					{"rt2"},
+					"理所应当的，我也去看了作为日本瓷器发祥地的",
+					{"ruby", text="てんぐだにがま"},
+					"天狗谷窑",
+					{"/ruby"},
+					"之类的地方。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 396,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"顺带一提，陶器和瓷器主要的差别就是，正如被称之为土物和石物一般，",
+					{"rt2"},
+					"陶器是把叫做陶土的粘土、瓷器是把被称作陶石的",
+					{"ruby", text="いしこ"},
+					"石粉",
+					{"/ruby"},
+					"加入粘土里面",
+					{"rt2"},
+					"烧制而成的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 401,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"另外，据说瓷器的烧制温度一般比陶器高100度左右。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 404,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不知从何时起，我脑子里只剩下和土相关的东西了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 407,
+	},
+	block_00088 = {
+		{"bgm", stop=1},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"顺便也有机会和陶艺家老师一起讨论评价弓张学园留下来的瓷器。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 414,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一代代的学生和教师，留下了为数不少的作品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 417,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"「看起来登窑在数十年间都没有被使用呢。基本都是些煤气窑烧的东西。",
+					{"rt2"},
+					"看来直到不久前登窑才被修复啊。」老师说道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 421,
+	},
+	block_00091 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"有一天，这位老师把美术室中的陶器摆成一排，一个人思索着什么。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 424,
+	},
+	block_00092 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg031a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="吉沢", size="z1", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0010", head="yos_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, resize=1, path=":fg/shi/z1/", file="shi_z1b0000", face="b0001", head="shi_z1b", x=345, lv=4, id=6, sync=0},
+		{"extrans"},
+		{"bgm", file="bgm104"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00068", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「是发生了什么吗？老师您把这些陶器从准备室里拿出来，摆成一排。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 440,
+	},
+	block_00093 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0002", head="yos_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「啊，我只是想全部确认一下，它们在日光下看起来是什么样子的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 445,
+	},
+	block_00094 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话是这么说，但这个数字可不小。",
+					{"rt2"},
+					"到底是动了什么念头才把它们全都搬出来了呢？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 449,
+	},
+	block_00095 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0003", head="yos_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就在我这样想的时候，吉泽老师笑着对我说。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 454,
+	},
+	block_00096 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0003", head="yos_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「在这个学校里全部的作品里面，",
+					{"rt2"},
+					"当然这里面也有陶艺家吉泽绿寺的作品。",
+					{"rt2"},
+					"那么鸟谷静流最喜欢哪一个作品呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 462,
+	},
+	block_00097 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0013", head="shi_z1b", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="いいえ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00069", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「怎么回事？是要测试一下学生吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 469,
+	},
+	block_00098 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0002", head="yos_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="吉沢", act="いいえ", lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「不，不，我不是要你猜我的作品。",
+					{"rt2"},
+					"我只是想知道，哪一个作品是你觉得最好的？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 476,
+	},
+	block_00099 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0011", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00070", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「不，我看过老师的大部分作品，所以是明白的……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 482,
+	},
+	block_00100 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0003", head="yos_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「那么，就选择一个你觉得最好的吧。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 487,
+	},
+	block_00101 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-600, file="zbg031a", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0010", head="shi_z1a", lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", lv=4, id=6, sync=0},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00071", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「嗯……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 500,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这里面有我一直很在意的作品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 503,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不是。",
+					{"rt2"},
+					"也不是那样的东西。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 507,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"刚刚来到这个学园的时候、",
+					{"rt2"},
+					"为了看看社团活动所以信步前往美术室的我，马上就邂逅了那件作品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 511,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"毫不夸张地说，在那次邂逅之后，我就对陶瓷着迷了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 514,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说不定登窑之类的理由都是后面我才加上去的。",
+					{"rt2"},
+					"与这个作品的邂逅才是我陶艺生涯的起点也说不定。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 518,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在琳琅满目的作品里，只有它大放异彩。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 521,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"实话实说，我甚至觉得它的魅力凌驾于吉泽老师的作品之上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 524,
+	},
+	block_00109 = {
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0011", head="shi_z1a", lv=4, id=6},
+		{"fgact", ch="静流", act="おじぎ", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00072", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「是不是这个呢……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 532,
+	},
+	block_00110 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-960, y=300, file="zbg031a", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我用手指着那一个花瓶。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 543,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这个花瓶的",
+					{"ruby", text="さいゆう"},
+					"彩釉",
+					{"/ruby"},
+					"，一眼看过去虽然是深邃的碧绿色的，根据光线强度的不同看上去会却会变得像是红色，这样一种不可思议的作品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 547,
+	},
+	block_00112 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", file="bg031a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="吉沢", size="z1", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0004", head="yos_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0001", head="shi_z1b", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"老师显得很沮丧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 559,
+	},
+	block_00113 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0004", head="yos_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="吉沢", act="おじぎ", lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「果然选的是这件作品啊。看来我还前途漫漫啊。可恶！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 566,
+	},
+	block_00114 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0007", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00073", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「前途漫漫？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 571,
+	},
+	block_00115 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0009", head="yos_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="吉沢", act="うなづく", lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「这种事情，还不能在弓张弄清楚的话可不行啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 577,
+	},
+	block_00116 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0011", head="shi_z1b", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00074", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「什么样的事情？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 582,
+	},
+	block_00117 = {
+		{"bg", file="black", path=":bg/"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"吉泽老师说，",
+					{"rt2"},
+					"“‘不来弓张教书吗？’　当时这样的邀请传来的时候我是拒绝的。",
+					{"rt2"},
+					"不论如何，我可是陶艺家，可不愿意教那些不是我弟子的学生。”",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 591,
+	},
+	block_00118 = {
+		{"msgoff"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=1, path=":bg/"},
+		{"bg", lv=8, id=7, file="reco", time=1000, notone=1, path=":sys/"},
+		{"colortone", mode="sepia"},
+		{"bg", file="bg028a", path=":bg/", ax=960, ay=563, bx=0, by=-23},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"抱着拒绝的目的，老师造访了弓张。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 597,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那个时候，我选择的花瓶好像被展示给一位现任的美术老师看了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 600,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那位老师好像这么给吉泽老师说了，",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 603,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"美术老师"},
+					"「这难道不是很不得了的作品吗？我不算什么陶艺专家，但据我所知，我还从未见过这种彩釉。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 607,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"美术老师"},
+					"「颜色基本上是深蓝色，看上去也像是深绿色。",
+					{"rt2"},
+					"深蓝色和深绿色，这两个是相当接近的颜色。但在合适的光线下，它们会突然看起来像是燃烧一般的火红色，这令我百思不得其解。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 611,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"美术老师"},
+					"「如果原来的颜色是蓝色，然后是紫色，最后是红色，这还是可以理解的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 614,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"美術教師"},
+					"「但是这个花瓶本来是从蓝色到绿色，当光的角度改变后，突然就变成了红色。我还没见过这么奇妙的彩釉。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 618,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"美术老师"},
+					"「我想知道，曾师从在世的国宝级人物的吉泽先生，是否再次创作出这样的彩釉呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 622,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那位老师的确说对了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 625,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然不知道是谁做出来的，但是这种独特的颜色和触感，毫无疑问是用这弓张的釉药做出来的。吉泽老师这样想到。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 628,
+	},
+	block_00128 = {
+		{"msgoff"},
+		{"colortone", mode="reset"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=1, path=":bg/"},
+		{"cgdel", lv=8, id=7, time=1000},
+		{"msgoff"},
+		{"bg", file="bg031a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="吉沢", size="z1", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0010", head="yos_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「这个作家一定很用心研究了本地的土质吧。",
+					{"rt2"},
+					"虽然不知道他是谁，但我觉得他应该是个比较有名的人。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 643,
+	},
+	block_00129 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0002", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00075", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「那这样的话，查一查教职员工名册如何？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 648,
+	},
+	block_00130 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0008", head="yos_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="吉沢", act="いいえ", lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「名册里面符合条件的陶艺家一个也没有哦。 也许他们是外面来的，像我一样……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 654,
+	},
+	block_00131 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="うなづく", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00076", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「是这样啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 660,
+	},
+	block_00132 = {
+		{"msgoff"},
+		{"fg", mode=-2, sync=0},
+		{"bg", x=-960, y=300, file="zbg031a", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我凝视着那个花瓶。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 672,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然色彩很有魅力，但对我而言这个形体也格外的吸引人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 676,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就像日落时分的海滩一般……深蓝色、亮蓝色和火红色交相辉映。",
+					{"rt2"},
+					"它的表面有着海的波浪一般的凹凸。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 681,
+	},
+	block_00135 = {
+		{"msgoff"},
+		{"bg", file="bg031a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="吉沢", size="z1", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0001", head="yos_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1a0010", face="a0001", head="shi_z1a", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00077", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「还真不怎么光整呢。是因为釉药的原因这么坑坑洼洼的吧……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 692,
+	},
+	block_00136 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0002", head="yos_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「从手法上来讲是Barbotine。凹凸不平的地方被做成了大海的样子。",
+					{"rt2"},
+					"波浪的表现不只是浮于表面，而是全体都得到了很好的再现。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 699,
+	},
+	block_00137 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0003", head="shi_z1a", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="びっくり", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00078", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「我也想做这个！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 705,
+	},
+	block_00138 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0003", head="yos_z1a", x=-345, lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「那还早了十年呢！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 710,
+	},
+	block_00139 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1a0000", face="a0013", head="shi_z1a", x=345, lv=4, id=6},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"微笑着被否定了……",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 715,
+	},
+	block_00140 = {
+		{"msgoff"},
+		{"bg", x=600, file="zbg031a", path=":bg/", ax=1920, ay=1126, bx=-960, by=-586, sync=0},
+		{"fg", ch="吉沢", size="z1", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0010", head="yos_z1a", lv=4, id=5, sync=0},
+		{"extrans", time=500},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「嘛，只是这个形状的话倒还好办，但是这个颜色我无论如何也复制不了。",
+					{"rt2"},
+					"虽然我试了很多次，但是像是这个花瓶一样透明的碧蓝色、",
+					{"rt2"},
+					"闪耀着绯红色光芒的色彩无论如何都做不出来。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 728,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"透明的碧蓝色，但却闪耀着红色的光芒……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 731,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"光是听着都觉得是个不可思议的彩釉呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 734,
+	},
+	block_00143 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0001", head="yos_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「我拜托了这里的理事长看到了一些古代的文献。",
+					{"rt2"},
+					"在文献里，我了解到了这是一种独特的、被称之为",
+					{"ruby", text="へきひ"},
+					"碧绯",
+					{"/ruby"},
+					"的彩釉。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 742,
+	},
+	block_00144 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0008", head="yos_z1a", lv=4, id=5},
+		{"fgact", ch="吉沢", act="いいえ", lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「但是更加详细的事情我就不知道了。",
+					{"rt2"},
+					"碧绯是怎么样做出来的我也不明白，",
+					{"rt2"},
+					"现在已经完全失传了，正所谓是Lost Technology啊。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 752,
+	},
+	block_00145 = {
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0009", head="yos_z1a", lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉泽"},
+					"「啊啊！如果能做出这个颜色，我肯定能超越这个花瓶的！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 758,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"吉泽老师细语道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 761,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"碧绯吗……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 765,
+	},
+	block_00148 = {
+		{"msgoff"},
+		{"bg", file="bg031a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="吉沢", size="z1", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0001", head="yos_z1a", x=-345, lv=4, id=5, sync=0},
+		{"fg", ch="静流", size="z1", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0003", head="shi_z1b", x=345, lv=4, id=6, sync=0},
+		{"extrans", time=500},
+		{"fgact", ch="静流", act="うんうん", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00079", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「老师！　这份意志就由我来继承好了！　趁我还在学校的时候把它折腾出来吧！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 777,
+	},
+	block_00149 = {
+		{"quake", mode="mw"},
+		{"fg", ch="吉沢", mode=3, path=":fg/yos/z1/", file="yos_z1a0000", face="a0006", head="yos_z1a", x=-345, lv=4, id=5},
+		{"fgact", ch="吉沢", act="びっくり", lv=4, id=5},
+		{"text"},
+		text = {
+			ja = {
+				{
+					name = {"吉沢"},
+					"「你蠢吗！　明明就连菊练都做不好！",
+					{"rt2"},
+					"比起这个，刚刚我去看了一眼窑，你之前的自信作被烧裂开了哦。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 787,
+	},
+	block_00150 = {
+		{"fg", ch="静流", mode=3, path=":fg/shi/z1/", file="shi_z1b0000", face="b0012", head="shi_z1b", x=345, lv=4, id=6},
+		{"fgact", ch="静流", act="quake", lv=4, id=6},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00080", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「真的假的啊！　得赶紧去看一眼！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 795,
+	},
+	block_00151 = {
+		{"bgm", stop=1},
+		{"bg", file="ev_etc_01_01", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"好吧，我就是这样一个JK，满面尘灰烟火色，可能与正常的JK有很大的不同。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 804,
+	},
+	block_00152 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"对我而言，考试、时尚、男朋友或咖啡馆都是些怎么都好的东西。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 807,
+	},
+	block_00153 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"比起这些事情，釉药的混合、窑内的温度和氧气水平之类的事情才真正构成了我的青春。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 810,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也有着对这样的我十分关心的人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 813,
+	},
+	block_00155 = {
+		{"bg", file="bg035a", path=":bg/", ax=960, ay=563, bx=0, by=-23},
+		{"bgm", file="bgm150"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_00001", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"丽华", "？？？"},
+					"「静流！　又把自己搞得这么脏！」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 825,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一位漂亮的少女望我走了过来。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 828,
+	},
+	block_00157 = {
+		{"fg", ch="麗華", size="z1", mx=-40, mode=3, resize=1, path=":fg/rei/z1/", file="rei_z1a0000", face="a0001", head="rei_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_00002", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"丽华", "？？？"},
+					"「你也是鸟谷，也算是中村家的人了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 837,
+	},
+	block_00158 = {
+		{"fg", ch="麗華", size="z1", mode=3, path=":fg/rei/z1/", file="rei_z1a0000", face="a0013", head="rei_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后她用一块干净的、飘逸的手帕擦拭着我的脸。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 842,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00081", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「啊？ 难不成煤糊脸上了？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 845,
+	},
+	block_00160 = {
+		{"fg", ch="麗華", mode=3, path=":fg/rei/z1/", file="rei_z1a0010", face="a0005", head="rei_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", mode=3, path=":fg/rei/z1/", file="rei_z1a0010", face="a0004", head="rei_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_00003", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"丽华", "？？？"},
+					"「可不仅是脸上沾着，制服也被弄得这么脏……。",
+					{"rt2"},
+					"只是做陶艺的话倒没关系，但为什么要穿着制服工作呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 853,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我什么话也说不出。",
+					{"rt2"},
+					"她说的是正论。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 857,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本来我会换上睡衣之类的衣服再进行工作，但当我灵感迸发之时，会不假思索地尝试，无暇顾及穿的到底是不是制服了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 860,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这种时候，我满脑子只有釉药和窑的状态。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 863,
+	},
+	block_00164 = {
+		{"fg", ch="麗華", mode=3, path=":fg/rei/z1/", file="rei_z1a0010", face="a0011", head="rei_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_00004", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"丽华", "？？？"},
+					"「我会给你准备更衣用的制服的。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 869,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00082", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「不用了，别太夸张。把手帕打湿后擦掉就足够了。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 872,
+	},
+	block_00166 = {
+		{"fg", ch="麗華", mode=3, path=":fg/rei/z1/", file="rei_z1a0010", face="a0006", head="rei_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", mode=3, path=":fg/rei/z1/", file="rei_z1a0010", face="a0005", head="rei_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_00005", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"丽华", "？？？"},
+					"「并非是此等问题。",
+					{"rt2"},
+					"你也属于我等一族，必须要在任何时候都着用最为整洁的制服。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 880,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00083", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「是这样吗」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 883,
+	},
+	block_00168 = {
+		{"fg", ch="麗華", mode=3, path=":fg/rei/z1/", file="rei_z1a0010", face="a0006", head="rei_z1a", lv=4, id=9},
+		{"text"},
+		delay = {
+			vl01 = {
+				{"fg", ch="麗華", mode=3, path=":fg/rei/z1/", file="rei_z1a0010", face="a0005", head="rei_z1a", lv=4, id=9},
+			},
+		},
+		text = {
+			vo = {
+				{"vo", file="fem_rei_00006", ch="rei"},
+			},
+			ja = {
+				{
+					name = {"丽华", "？？？"},
+					"「这是理所当然的。",
+					{"rt2"},
+					"请至少保持一些自觉。」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 891,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00084", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「嗯……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 894,
+	},
+	block_00170 = {
+		{"cgdel", id=-1},
+		{"bg", time=1000, rule="083r", wait=250, file="black", path=":bg/", vague=40},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这样说着，她把我带向了美术准备室的方向。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 899,
+	},
+	block_00171 = {
+		{"excall", file="01_02_2"},
+		{"text"},
+		linkback = "block_00170",
+		line = 901,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}
