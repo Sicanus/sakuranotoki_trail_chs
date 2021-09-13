@@ -26,4 +26,4 @@
 
 ### Agnitio
 
-`SimiaCodicis01, LuciusAxelius2`
+`SimiaCodicis01`, `LuciusAxelius2`
