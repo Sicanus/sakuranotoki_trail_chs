@@ -27,3 +27,7 @@
 ### Agnitio
 
 `SimiusCodicis01`, `LuciusAxellius`
+
+### 其他链接
+
+(サクラノ刻公式ウェブサイト)[https://www.makura-soft.com/sakuranotoki/]
