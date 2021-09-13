@@ -30,4 +30,4 @@
 
 ### 其他链接
 
-[サクラノ刻公式ウェブサイト](https://www.makura-soft.com/sakuranotoki/)
+[サクラノ刻 公式ウェブサイト](https://www.makura-soft.com/sakuranotoki/)
