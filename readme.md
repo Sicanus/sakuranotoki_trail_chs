@@ -26,7 +26,7 @@
 
 ### Agnitio
 
-`SimiusCodicis01`, `LuciusAxellius`
+`SimiusCodicis01`, `LuciusAxellius`, `kisakichan`
 
 ### 其他链接
 
