@@ -12,7 +12,7 @@
 - `01_03_2.ast` 0% 翻译完成； 0% 校对完成
 - `01_03_3.ast` 0% 翻译完成； 0% 校对完成
 - `01_03_4.ast` 100% 翻译完成； 0% 校对完成
-- `01_03_5.ast` 25% 翻译完成； 0% 校对完成
+- `01_03_5.ast` 75% 翻译完成； 0% 校对完成
 - `01_04_1.ast` 100% 翻译完成； 0% 校对完成
 - `01_04_2.ast` 0% 翻译完成； 0% 校对完成
 - `01_04_3.ast` 0% 翻译完成； 0% 校对完成
@@ -26,7 +26,7 @@
 
 ### 讨论板
 
-如果关于有问题或者任何建议，都可以去本项目的[Issues](https://github.com/ToadStudio/sakuranotoki_trail_chs/issues)区域提交一个issue。
+如果关于本汉化有问题或者任何建议，都可以去本项目的[Issues](https://github.com/ToadStudio/sakuranotoki_trail_chs/issues)区域提交一个issue。
 
 ### Agnitio
 
