@@ -1,0 +1,2800 @@
+astver = 2.0
+ast = {
+	block_00000 = {
+		{"savetitle", text="第Ⅰ章"},
+		{"bg", file="アイキャッチ01", id=1, lv=5, path=":cg/", sync=0},
+		{"extrans"},
+		{"ex", time=5000, func="wait"},
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从那之后过了几个月，随着暑假到来，",
+					{"rt2"},
+					"我去了法国利穆赞大区的利摩日（利穆赞的首府）。",
+					{"rt2"},
+				},
+			},
+		},
+		linknext = "block_00001",
+		line = 23,
+	},
+	block_00001 = {
+		{"bg", file="ev_etc_01_09", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"bgm", file="bgm144"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"大概，如果我想一个人全部完成的话，就会因为极度的路痴而死去吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00000",
+		linknext = "block_00002",
+		line = 35,
+	},
+	block_00002 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是，在姑母的介绍下，我请了导游。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00001",
+		linknext = "block_00003",
+		line = 38,
+	},
+	block_00003 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在我抵达法国之前，一直以为那个人是法国人，没想到竟然",
+					{"rt2"},
+					"是个日本人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00002",
+		linknext = "block_00004",
+		line = 42,
+	},
+	block_00004 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她不是当导游的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00003",
+		linknext = "block_00005",
+		line = 45,
+	},
+	block_00005 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"她似乎是利摩日大学美术学部的学生，",
+					{"rt2"},
+					"是姑母大学的学妹。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00004",
+		linknext = "block_00006",
+		line = 49,
+	},
+	block_00006 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"名字叫",
+					{"ruby", text="ひさぎ"},
+					"久木",
+					{"/ruby"},
+					"桑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00005",
+		linknext = "block_00007",
+		line = 52,
+	},
+	block_00007 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我借宿在一间独门独院，与其说很便宜，不如说是几乎免费只要自己出饭钱",
+					{"rt2"},
+					"做食客那种。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00006",
+		linknext = "block_00008",
+		line = 56,
+	},
+	block_00008 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我在利摩日期间拼命做了许多事，理所当然暑假",
+					{"rt2"},
+					"什么的很简单就结束了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00007",
+		linknext = "block_00009",
+		line = 60,
+	},
+	block_00009 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"本来打算利用暑假完成的，但果然没那么简单。",
+					{"rt2"},
+					"资金供给也在同时期被切断了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00008",
+		linknext = "block_00010",
+		line = 67,
+	},
+	block_00010 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是，在这期间我并不是在玩。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00009",
+		linknext = "block_00011",
+		line = 70,
+	},
+	block_00011 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"因为在日本做过陶艺，所以在大学以助手研究员这样的形式得到了工作，换成了工作签证。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00010",
+		linknext = "block_00012",
+		line = 73,
+	},
+	block_00012 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就这样，我在利摩日待了近一年半。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00011",
+		linknext = "block_00013",
+		line = 80,
+	},
+	block_00013 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"长得出奇的暑假。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00012",
+		linknext = "block_00014",
+		line = 83,
+	},
+	block_00014 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"正如姑母担心的那样，",
+					{"rt2"},
+					"我的暑假延长战还是开始了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00013",
+		linknext = "block_00015",
+		line = 87,
+	},
+	block_00015 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"改成工作签证的时候，久木桑好像帮我办了不少事。",
+					{"rt2"},
+					"一般来说，没有任何学历的我是不会被允许做这种事的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00014",
+		linknext = "block_00016",
+		line = 91,
+	},
+	block_00016 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然这么想，但是在弓张时期教陶艺的吉泽绿寺老师也帮了我很多。",
+					{"rt2"},
+					"他把我当做自己的徒弟，给我写了介绍信。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00015",
+		linknext = "block_00017",
+		line = 95,
+	},
+	block_00017 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嘛，这可能也是姑母事先疏通好的吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00016",
+		linknext = "block_00018",
+		line = 98,
+	},
+	block_00018 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"原本那个陶艺家老师的师傅就是人间国宝，作为他的徒孙，",
+					{"rt2"},
+					"我在法国享有相当的地位。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00017",
+		linknext = "block_00019",
+		line = 102,
+	},
+	block_00019 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"真是感激不尽。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00018",
+		linknext = "block_00020",
+		line = 105,
+	},
+	block_00020 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这么说来，吉泽老师好像终于成功呈现那种颜色了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00019",
+		linknext = "block_00021",
+		line = 108,
+	},
+	block_00021 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也就是说，",
+					{"ruby", text="へきひ"},
+					"碧绯",
+					{"/ruby"},
+					"被呈现出来了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00020",
+		linknext = "block_00022",
+		line = 112,
+	},
+	block_00022 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"碧绯这种颜色，是在陶艺达不到的温度下烧制出来的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00021",
+		linknext = "block_00023",
+		line = 116,
+	},
+	block_00023 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽不清楚原因，但弓张的土和",
+					{"ruby", text="ゆうやく"},
+					"釉料",
+					{"/ruby"},
+					"似乎相当耐热。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00022",
+		linknext = "block_00024",
+		line = 119,
+	},
+	block_00024 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00650", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「但是，这个温度啊......不是几乎到了硬质瓷器的温度了吗？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00023",
+		linknext = "block_00025",
+		line = 122,
+	},
+	block_00025 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"信中记载了弓张釉料的所有特性",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00024",
+		linknext = "block_00026",
+		line = 125,
+	},
+	block_00026 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看了那封信，我大吃一惊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00025",
+		linknext = "block_00027",
+		line = 128,
+	},
+	block_00027 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我明白了无论是什么过程，弓张釉都是在陶器不可能达到的温度下",
+					{"rt2"},
+					"呈现颜色的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00026",
+		linknext = "block_00028",
+		line = 132,
+	},
+	block_00028 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我虽在利摩日大学做助手研究员这种兼职性工作，",
+					{"rt2"},
+					"但我的陶艺知识和技艺得到了相当高的评价，很受学生和教授的欢迎。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00027",
+		linknext = "block_00029",
+		line = 136,
+	},
+	block_00029 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嘛，我从弓张的山丘上挖土开始做的，像水唐臼（サコンタ：水唐臼みずからうす，用来粉碎和粉化陶瓷石的设施，出自山口县）一样的水车的杵和臼这种在利摩日根本没有，在日本的",
+					{"ruby", text="はいど"},
+					"粘土",
+					{"/ruby"},
+					"工序（土中加入水和粘合剂形成粘土）之类的",
+					{"rt2"},
+					"几乎没有人知道。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00028",
+		linknext = "block_00030",
+		line = 141,
+	},
+	block_00030 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但不管怎么说，我的菊花揉（可以去除粘土中所含的空气的揉捏法。）得到的评价很高。",
+					{"rt2"},
+					"看起来我菊花揉功夫相当了得。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00029",
+		linknext = "block_00031",
+		line = 145,
+	},
+	block_00031 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嘛，因为老师说过要尽量多做菊花揉。",
+					{"rt2"},
+					"那可是费了好大劲儿才学会的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00030",
+		linknext = "block_00032",
+		line = 149,
+	},
+	block_00032 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"此外还有爬窑的构造、使用方法、注意点、烧柴的方法、温度管理等各种方面。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00031",
+		linknext = "block_00033",
+		line = 152,
+	},
+	block_00033 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"如今，还在用这种古老的东洋方法的人已经不多了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00032",
+		linknext = "block_00034",
+		line = 155,
+	},
+	block_00034 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我在大学里，被教授叫去讨论陶瓷器，被学生们围住谈论日本陶瓷器，还在研究室帮久木干活。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00033",
+		linknext = "block_00035",
+		line = 158,
+	},
+	block_00035 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"偶尔会去街上参观作坊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00034",
+		linknext = "block_00036",
+		line = 161,
+	},
+	block_00036 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是非常有意义的生活啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00035",
+		linknext = "block_00037",
+		line = 164,
+	},
+	block_00037 = {
+		{"bg", file="ev_com_12_01", path=":ev/ev_com_12/", set="ev_com_12"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"起初的半年因为利摩日太好玩了，每天我都去利穆赞大区周边",
+					{"rt2"},
+					"的作坊参观。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00036",
+		linknext = "block_00038",
+		line = 173,
+	},
+	block_00038 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"然后，我去了向往已久的圣伊里耶拉佩尔什（法国城市，隶属于利摩日，历史上盛产瓷器而闻名），并实地考察了土壤。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00037",
+		linknext = "block_00039",
+		line = 178,
+	},
+	block_00039 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"名窑有名土。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00038",
+		linknext = "block_00040",
+		line = 181,
+	},
+	block_00040 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不对，名土出名窑，才能建起作坊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00039",
+		linknext = "block_00041",
+		line = 184,
+	},
+	block_00041 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是作为我师傅的陶艺家老师教给我的东西，实际上东西方都是一样的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00040",
+		linknext = "block_00042",
+		line = 187,
+	},
+	block_00042 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不过和弓张的土不一样，利摩日用的是在圣伊里耶拉佩尔什采到的白色黏土。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00041",
+		linknext = "block_00043",
+		line = 190,
+	},
+	block_00043 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这些白色的粘土，正是制造瓷器时必不可少的高岭土。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00042",
+		linknext = "block_00044",
+		line = 193,
+	},
+	block_00044 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"高岭土的名称源于中国的",
+					{"ruby", text="けいとくちん"},
+					"景德镇",
+					{"/ruby"},
+					"附近的",
+					{"ruby", text="カオリン"},
+					"高岭",
+					{"/ruby"},
+					"村。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00043",
+		linknext = "block_00045",
+		line = 198,
+	},
+	block_00045 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"正是在这高岭村开采的粘土，创造了闻名世界的景德镇。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00044",
+		linknext = "block_00046",
+		line = 202,
+	},
+	block_00046 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一直以来，欧洲都没有这种高岭土，无法制造",
+					{"rt2"},
+					"硬质瓷器。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00045",
+		linknext = "block_00047",
+		line = 206,
+	},
+	block_00047 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在这之前都被称为没有高岭土的软质瓷器，",
+					{"rt2"},
+					"主料是ル・マルサール・ルザルツ（没查到），然后用",
+					{"ruby", text="こっぷん"},
+					"骨粉",
+					{"/ruby"},
+					"等材料代替做出来的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00046",
+		linknext = "block_00048",
+		line = 210,
+	},
+	block_00048 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是，18世纪初在德国的迈森，",
+					{"rt2"},
+					"和60年后在圣伊里耶拉佩尔什",
+					{"rt2"},
+					"都发现了优质的高岭土，留下了大量的瓷器名品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00047",
+		linknext = "block_00049",
+		line = 215,
+	},
+	block_00049 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"19世纪后半期的『利摩日瓷器的黄金时代』是从纽约的David Haviland（原文是ダヴィッド・ダビランド，David Daviland，此处怀疑是自哥哥规避版权问题改掉的，后续的Haviland一样）",
+					{"rt2"},
+					"来了之后开始的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00048",
+		linknext = "block_00050",
+		line = 219,
+	},
+	block_00050 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他和他的兄弟一起在纽约经营餐具生意的店铺",
+					{"rt2"},
+					"『D. G. & D. Haviland』开始贩卖利摩日瓷器，销售范围也很广，",
+					{"rt2"},
+					"这成为了出口的契机，使利摩日瓷器声名远扬。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00049",
+		linknext = "block_00051",
+		line = 224,
+	},
+	block_00051 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"后来兄弟俩经营的公司解散，利摩日的工厂独立了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00050",
+		linknext = "block_00052",
+		line = 227,
+	},
+	block_00052 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"访问了利摩日的David Haviland，他的儿子Charles Haviland",
+					{"rt2"},
+					"继承了Haviland公司的事业，改变成了独特的经营方针。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00051",
+		linknext = "block_00053",
+		line = 231,
+	},
+	block_00053 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"引入了醉心于日本主义艺术的布拉克蒙（法国画家和陶艺家），就任了Auteuil作坊",
+					{"rt2"},
+					"的艺术监督。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00052",
+		linknext = "block_00054",
+		line = 235,
+	},
+	block_00054 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在布拉克蒙的指导下，许多的Auteuil作坊中诞生了许多印象派风格的利摩日瓷器。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00053",
+		linknext = "block_00055",
+		line = 238,
+	},
+	block_00055 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说到这里该明白了吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00054",
+		linknext = "block_00056",
+		line = 241,
+	},
+	block_00056 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"是的。姑母写的那篇报道，就是基于这样的历史背景。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00055",
+		linknext = "block_00057",
+		line = 244,
+	},
+	block_00057 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"而那个喜鹊花瓶诞生的地方，应该正是有Haviland公司和",
+					{"rt2"},
+					"Auteuil作坊所在的利摩日。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00056",
+		linknext = "block_00058",
+		line = 248,
+	},
+	block_00058 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00651", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「真是个好地方啊……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00057",
+		linknext = "block_00059",
+		line = 254,
+	},
+	block_00059 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"将来在这样的地方开作坊也不错啊，我想。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00058",
+		linknext = "block_00060",
+		line = 257,
+	},
+	block_00060 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话虽如此，日本也有很多好土呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00059",
+		linknext = "block_00061",
+		line = 260,
+	},
+	block_00061 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"做陶瓷器，在日本也彳亍。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00060",
+		linknext = "block_00062",
+		line = 263,
+	},
+	block_00062 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当然，陶瓷器发源地朝鲜半岛和另一个发源地中国也不错。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00061",
+		linknext = "block_00063",
+		line = 266,
+	},
+	block_00063 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是日本也很好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00062",
+		linknext = "block_00064",
+		line = 269,
+	},
+	block_00064 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"鲜为人知的是，直到最近世界上最古老的陶器不是在中国而是在日本",
+					{"rt2"},
+					"发现的（后来在中国发现了更古老的陶器）。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00063",
+		linknext = "block_00065",
+		line = 273,
+	},
+	block_00065 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"可见日本的土壤文化是多么古老。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00064",
+		linknext = "block_00066",
+		line = 276,
+	},
+	block_00066 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在这里，我突然想到。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00065",
+		linknext = "block_00067",
+		line = 279,
+	},
+	block_00067 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00652", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「世界上存在各种各样的土啊，只不过我们不知道罢了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00066",
+		linknext = "block_00068",
+		line = 282,
+	},
+	block_00068 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00653", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「未知土地的土壤，又能做出什么样的陶器呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00067",
+		linknext = "block_00069",
+		line = 285,
+	},
+	block_00069 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"非洲的怎么样？　",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00068",
+		linknext = "block_00070",
+		line = 291,
+	},
+	block_00070 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"南美怎么样？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00069",
+		linknext = "block_00071",
+		line = 294,
+	},
+	block_00071 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说不定会诞生我们现在所不知道的陶器呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00070",
+		linknext = "block_00072",
+		line = 297,
+	},
+	block_00072 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"陶器形态可依靠土的成分来改变。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00071",
+		linknext = "block_00073",
+		line = 300,
+	},
+	block_00073 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也许我能烧出迄今为止世界上不存在的",
+					{"rt2"},
+					"陶器呢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00072",
+		linknext = "block_00074",
+		line = 304,
+	},
+	block_00074 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我一边追寻喜鹊花瓶，一边幻想这种事情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00073",
+		linknext = "block_00075",
+		line = 307,
+	},
+	block_00075 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"19世纪左右在Haviland公司员工的老宅子的阁楼上，发现了当时",
+					{"rt2"},
+					"花瓶的素坯。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00074",
+		linknext = "block_00076",
+		line = 314,
+	},
+	block_00076 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"除此之外，也不时在仓库里发现一些碎片。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00075",
+		linknext = "block_00077",
+		line = 317,
+	},
+	block_00077 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"把这些碎片粉碎，在大学进行成分分析，得到了详细的数据。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00076",
+		linknext = "block_00078",
+		line = 320,
+	},
+	block_00078 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"粉碎的工作也很重要。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00077",
+		linknext = "block_00079",
+		line = 323,
+	},
+	block_00079 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"很多事情不切开就不会明白。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00078",
+		linknext = "block_00080",
+		line = 326,
+	},
+	block_00080 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"当然利摩日大学也有很多当时的资料，",
+					{"ruby", text="でい"},
+					"泥",
+					{"/ruby"},
+					"之类的东西都查得清清楚楚。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00079",
+		linknext = "block_00081",
+		line = 329,
+	},
+	block_00081 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是，用手去触摸实物，切开它、粉碎它、有时还要去舔舐它，用各种各样的手段让自己的身体产生实感。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00080",
+		linknext = "block_00082",
+		line = 332,
+	},
+	block_00082 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我认为这是制作出与19世纪Haviland公司相近作品的捷径。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00081",
+		linknext = "block_00083",
+		line = 335,
+	},
+	block_00083 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就技术方面来说，我这一年零三个月主要以学习“化妆土”（Barbotine，一种在陶瓷器表面作画与造型的技术）为中心。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00082",
+		linknext = "block_00084",
+		line = 338,
+	},
+	block_00084 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"化妆土在法语里好像是「凹凸不平」的意思。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00083",
+		linknext = "block_00085",
+		line = 341,
+	},
+	block_00085 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嘛，直截了当地说就是",
+					{"ruby", text="おうとつ"},
+					"凹凸",
+					{"/ruby"},
+					"有致的立体陶瓷。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00084",
+		linknext = "block_00086",
+		line = 345,
+	},
+	block_00086 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这在印象派的利摩日瓷器中，表现为油画颜料的凹凸状。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00085",
+		linknext = "block_00087",
+		line = 349,
+	},
+	block_00087 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这技术在弓张从未学过。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00086",
+		linknext = "block_00088",
+		line = 352,
+	},
+	block_00088 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"利摩日大学的教授自不必说，就连Haviland公司承包的作坊的人也会认真",
+					{"rt2"},
+					"教我。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00087",
+		linknext = "block_00089",
+		line = 356,
+	},
+	block_00089 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我好像天赋还不错。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00088",
+		linknext = "block_00090",
+		line = 359,
+	},
+	block_00090 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在作坊总能听到「不来我们这上班吗？」这样的话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00089",
+		linknext = "block_00091",
+		line = 362,
+	},
+	block_00091 = {
+		{"bgm", stop=1, time=10000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"整挺好。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00090",
+		linknext = "block_00092",
+		line = 367,
+	},
+	block_00092 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在利摩日拜师学艺，将来在这块地方开设作坊。",
+					{"rt2"},
+					"多么有魅力的话啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00091",
+		linknext = "block_00093",
+		line = 371,
+	},
+	block_00093 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是更让我高兴的是，自己的手艺得到了利摩日本地人的认可。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00092",
+		linknext = "block_00094",
+		line = 374,
+	},
+	block_00094 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"最后的三个月。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00093",
+		linknext = "block_00095",
+		line = 379,
+	},
+	block_00095 = {
+		{"bg", file="ev_com_11_01", path=":ev/ev_com_11/", set="ev_com_11"},
+		{"bgm", file="bgm148"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我辞掉了在大学的兼职。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00094",
+		linknext = "block_00096",
+		line = 388,
+	},
+	block_00096 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"作坊的大叔借了三个月我用于制作自己的作品的作坊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00095",
+		linknext = "block_00097",
+		line = 391,
+	},
+	block_00097 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我说过要参考的照片。",
+					{"rt2"},
+					"莫奈的第二幅喜鹊，以及狩山青鹭的浮世绘，见过这些的人大多都很吃惊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00096",
+		linknext = "block_00098",
+		line = 395,
+	},
+	block_00098 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"连大学教授都误以为是真品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00097",
+		linknext = "block_00099",
+		line = 398,
+	},
+	block_00099 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也可能是照片的原因吧……姑母的赝品果然不一般啊。",
+					{"rt2"},
+					"我想。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00098",
+		linknext = "block_00100",
+		line = 402,
+	},
+	block_00100 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在过去的一年零三个月里，我对19世纪的Haviland公司进行了研究。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00099",
+		linknext = "block_00101",
+		line = 405,
+	},
+	block_00101 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"能进入利摩日大学我真是幸运啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00100",
+		linknext = "block_00102",
+		line = 408,
+	},
+	block_00102 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"所有的资料都拿到了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00101",
+		linknext = "block_00103",
+		line = 411,
+	},
+	block_00103 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"所以最后的三个月里，我只会专注创作自己的作品了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00102",
+		linknext = "block_00104",
+		line = 414,
+	},
+	block_00104 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"每天夜以继日地揉搓白色粘土。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00103",
+		linknext = "block_00105",
+		line = 417,
+	},
+	block_00105 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在此期间，我对很多事情表示感谢。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00104",
+		linknext = "block_00106",
+		line = 420,
+	},
+	block_00106 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从土中诞生的艺术，如果没有在那片土地生活的人的协助是不可能实现的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00105",
+		linknext = "block_00107",
+		line = 423,
+	},
+	block_00107 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"从那个意思来说，我还挺幸运的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00106",
+		linknext = "block_00108",
+		line = 426,
+	},
+	block_00108 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这三个月间，我连睡觉的时间都舍不得，一直在进行创作。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00107",
+		linknext = "block_00109",
+		line = 429,
+	},
+	block_00109 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一次又一次地烧制，一次又一次的失败。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00108",
+		linknext = "block_00110",
+		line = 432,
+	},
+	block_00110 = {
+		{"bgm", stop=1, time=20000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"尽管这样我还在不断尝试。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00109",
+		linknext = "block_00111",
+		line = 437,
+	},
+	block_00111 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我进行着如此痛苦的创作，却不知为何在想，如果这个时间能永远持续下去就好了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00110",
+		linknext = "block_00112",
+		line = 440,
+	},
+	block_00112 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"尽管如此，创作也在逐步进行。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00111",
+		linknext = "block_00113",
+		line = 443,
+	},
+	block_00113 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"逐渐地，样品有了自己目标成品的形状。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00112",
+		linknext = "block_00114",
+		line = 446,
+	},
+	block_00114 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我永远不会忘记。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00113",
+		linknext = "block_00115",
+		line = 451,
+	},
+	block_00115 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在那寒冷的利摩日冬日清晨。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00114",
+		linknext = "block_00116",
+		line = 454,
+	},
+	block_00116 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我呼出白色的哈气，打开窑，它就在那里。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00115",
+		linknext = "block_00117",
+		line = 457,
+	},
+	block_00117 = {
+		{"bg", file="white", path=":bg/"},
+		{"ex", time=500, func="wait"},
+		{"bgm", file="bgm146", time=3000},
+		{"bg", speed=15000, time=2000, file="zev_etc_01_10", path=":ev/ev_etc_01/", x2=0, y2=-100, x=0, y=200, set="ev_etc_01", ax=1920, ay=1080, bx=-960, by=-540},
+		{"ex", time=10000, func="wait"},
+		{"bg", time=2000, file="ev_etc_01_10", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那是个漂亮的，色彩斑斓的作品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00116",
+		linknext = "block_00118",
+		line = 476,
+	},
+	block_00118 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"毫无疑问那是莫奈的第二幅喜鹊，也是狩山青鹭的浮世绘。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00117",
+		linknext = "block_00119",
+		line = 479,
+	},
+	block_00119 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"它们被完美地画在花瓶的外表面上。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00118",
+		linknext = "block_00120",
+		line = 482,
+	},
+	block_00120 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"完成啦。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00119",
+		linknext = "block_00121",
+		line = 485,
+	},
+	block_00121 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"克劳德・莫奈作品『喜鹊花瓶』的赝作。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00120",
+		linknext = "block_00122",
+		line = 488,
+	},
+	block_00122 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我把成品拿给几个人看，每个人都发出了惊叹。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00121",
+		linknext = "block_00123",
+		line = 491,
+	},
+	block_00123 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"作坊的大叔说",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00122",
+		linknext = "block_00124",
+		line = 494,
+	},
+	block_00124 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"「要卖掉它吗？这个会拍出相当的高价啊」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00123",
+		linknext = "block_00125",
+		line = 497,
+	},
+	block_00125 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"久木桑狠狠捅了我一刀：「这个作为赝品不会有什么不好吧」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00124",
+		linknext = "block_00126",
+		line = 500,
+	},
+	block_00126 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"利摩日大学的老师也说：「你想成为东洋的米格伦吗？」。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00125",
+		linknext = "block_00127",
+		line = 503,
+	},
+	block_00127 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"米格伦是把维米尔作品的赝品卖给纳粹德国的人。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00126",
+		linknext = "block_00128",
+		line = 506,
+	},
+	block_00128 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"一开始，大家不知道那是赝品，以为他一直在把荷兰的宝藏卖给纳粹，因此他被判叛国罪。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00127",
+		linknext = "block_00129",
+		line = 509,
+	},
+	block_00129 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"他本人主张这是他自己画的赝品，被证明之后，他一跃成为「欺骗纳粹的男人」那样的英雄。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00128",
+		linknext = "block_00130",
+		line = 512,
+	},
+	block_00130 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我苦笑着说。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00129",
+		linknext = "block_00131",
+		line = 515,
+	},
+	block_00131 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00654", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「如果市场上出现了莫奈的作品，教授一定要说这是赝品哦。",
+					{"rt2"},
+					"请一定要告发我在这做的这件事」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00130",
+		linknext = "block_00132",
+		line = 519,
+	},
+	block_00132 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"说完之后，脸上露出了复杂的表情。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00131",
+		linknext = "block_00133",
+		line = 522,
+	},
+	block_00133 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"嘛，对赝品有好感的人应该很少吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00132",
+		linknext = "block_00134",
+		line = 525,
+	},
+	block_00134 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"即便如此，大家还是认可了这个作品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00133",
+		linknext = "block_00135",
+		line = 528,
+	},
+	block_00135 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"被说是相当厉害的作品了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00134",
+		linknext = "block_00136",
+		line = 531,
+	},
+	block_00136 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"话虽如此。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00135",
+		linknext = "block_00137",
+		line = 534,
+	},
+	block_00137 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"不管怎么说，如果是在日本的品评会，应该没有人愿意搭眼吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00136",
+		linknext = "block_00138",
+		line = 537,
+	},
+	block_00138 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"也就是说，没有人会认为是真品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00137",
+		linknext = "block_00139",
+		line = 540,
+	},
+	block_00139 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这点，我在和姑母一起去的陶瓷批发商业交换会上已经完全理解了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00138",
+		linknext = "block_00140",
+		line = 543,
+	},
+	block_00140 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"通过对美术品过去所有者的来历和目前持有者的调查来",
+					{"rt2"},
+					"判断。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00139",
+		linknext = "block_00141",
+		line = 547,
+	},
+	block_00141 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"关于这个花瓶的故事本来就太多了。",
+					{"rt2"},
+					"说白了就是很可疑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00140",
+		linknext = "block_00142",
+		line = 551,
+	},
+	block_00142 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"假如是从鸟谷的仓库里拿出来的，被姑母拿到陶瓷批发商业交换会上的话。",
+					{"rt2"},
+					"以鸟谷纱希的信誉，在交换会上可能会被当作真品。",
+					{"rt2"},
+					"もある。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00141",
+		linknext = "block_00143",
+		line = 556,
+	},
+	block_00143 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"但是，躲得过一时躲不过一世。",
+					{"rt2"},
+					"如果进行成分调查，染一下色就会露馅吧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00142",
+		linknext = "block_00144",
+		line = 560,
+	},
+	block_00144 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"为什么调查了Haviland公司那么久，却掺杂了当时利摩日不会使用的颜料呢？",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00143",
+		linknext = "block_00145",
+		line = 563,
+	},
+	block_00145 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"答案是，我只用了两种19世纪的Haviland公司不会使用的颜色。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00144",
+		linknext = "block_00146",
+		line = 566,
+	},
+	block_00146 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"其中一种颜色是",
+					{"ruby", text="くさび"},
+					"楔",
+					{"/ruby"},
+					"色。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00145",
+		linknext = "block_00147",
+		line = 569,
+	},
+	block_00147 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"这是临行前姑母对我说过的话。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00146",
+		linknext = "block_00148",
+		line = 572,
+	},
+	block_00148 = {
+		{"msgoff"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=1, path=":bg/"},
+		{"bg", lv=8, id=7, file="reco", time=1000, notone=1, path=":sys/"},
+		{"colortone", mode="sepia"},
+		{"bg", file="bg051a", path=":bg/", ax=960, ay=563, bx=0, by=-23, sync=0},
+		{"fg", ch="紗希", size="z1", mode=3, resize=1, path=":fg/sak/z1/", file="sak_z1a0000", face="a0001", head="sak_z1a", lv=4, id=9, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00337", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗希"},
+					"「静流，给我记好了。",
+					{"rt2"},
+					"法国画家西奥多・卢梭曾说过这样一句话：",
+					{"rt2"},
+					"美术界流通的赝品比你想象的要多得多」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00147",
+		linknext = "block_00149",
+		line = 584,
+	},
+	block_00149 = {
+		{"fg", ch="紗希", mode=3, path=":fg/sak/z1/", file="sak_z1a0000", face="a0010", head="sak_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00338", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗希"},
+					"「我们都该知道吧，只能谈论那些被一眼看穿的劣质赝品，因为好的赝品现在还被挂在墙上呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00148",
+		linknext = "block_00150",
+		line = 589,
+	},
+	block_00150 = {
+		{"fg", ch="紗希", mode=3, path=":fg/sak/z1/", file="sak_z1a0010", face="a0010", head="sak_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00339", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗希"},
+					"「现实问题，一般认为市面上流通的赝品数量是真作的二倍」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00149",
+		linknext = "block_00151",
+		line = 594,
+	},
+	block_00151 = {
+		{"fg", ch="紗希", mode=3, path=":fg/sak/z1/", file="sak_z1a0000", face="a0008", head="sak_z1a", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00340", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗希"},
+					"「如果你的赝品做的太好，那可能就",
+					{"rt2"},
+					"拿不回来了」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00150",
+		linknext = "block_00152",
+		line = 600,
+	},
+	block_00152 = {
+		{"fg", ch="紗希", mode=3, path=":fg/sak/z1/", file="sak_z1b0000", face="b0005", head="sak_z1b", lv=4, id=9},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_sak_00341", ch="sak"},
+			},
+			ja = {
+				{
+					name = {"紗希"},
+					"「所以，为了不让它流通，要好好地在里面插入楔」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00151",
+		linknext = "block_00153",
+		line = 605,
+	},
+	block_00153 = {
+		{"msgoff"},
+		{"colortone", mode="reset"},
+		{"bg", lv=8, id=7, file="white", time=1000, sync=1, path=":bg/"},
+		{"cgdel", lv=8, id=7, time=1000},
+		{"bg", file="ev_etc_01_10", path=":ev/ev_etc_01/", set="ev_etc_01"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我已经把姑母说过的楔插进去了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00152",
+		linknext = "block_00154",
+		line = 612,
+	},
+	block_00154 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"关于另一种颜色……。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00153",
+		linknext = "block_00155",
+		line = 615,
+	},
+	block_00155 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"虽然没有使用的必要，但作为赝品作者，我还是想有点自己的主张。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00154",
+		linknext = "block_00156",
+		line = 618,
+	},
+	block_00156 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					这其实不是克劳德・莫奈的作品，而是鸟谷静流的。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00155",
+		linknext = "block_00157",
+		line = 621,
+	},
+	block_00157 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就是这种小小的情绪表现。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00156",
+		linknext = "block_00158",
+		line = 624,
+	},
+	block_00158 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00655", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「话说回来暑假好长啊。天气都完全变冷了……」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00157",
+		linknext = "block_00159",
+		line = 627,
+	},
+	block_00159 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"四周白雪皑皑，宛如莫奈的早期作品『喜鹊』",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00158",
+		linknext = "block_00160",
+		line = 630,
+	},
+	block_00160 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00656", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「在利摩日的雪景下看到这个花瓶，真是别有一番滋味啊」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00159",
+		linknext = "block_00161",
+		line = 633,
+	},
+	block_00161 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00657", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「啊哈哈哈，",
+					{"rt2"},
+					"这样说不定我也能吃陶艺家这口饭呢？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00160",
+		linknext = "block_00162",
+		line = 637,
+	},
+	block_00162 = {
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00658", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「说起来，我还没决定这个花瓶的名字呢」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00161",
+		linknext = "block_00163",
+		line = 640,
+	},
+	block_00163 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"以克劳德・莫奈早期代表作『喜鹊』为基础的作品。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00162",
+		linknext = "block_00164",
+		line = 643,
+	},
+	block_00164 = {
+		{"bgm", stop=1, time=13000},
+		{"text"},
+		text = {
+			vo = {
+				{"vo", file="fem_shi_00659", ch="shi"},
+			},
+			ja = {
+				{
+					name = {"静流"},
+					"「这样吧。『",
+					{"ruby", text="せっけいかささぎずかびん"},
+					"雪景鵲図花瓶",
+					{"/ruby"},
+					"』什么的怎么样？」",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00163",
+		linknext = "block_00165",
+		line = 649,
+	},
+	block_00165 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"喜鹊花瓶被我赋予了『",
+					{"ruby", text="せっけいかささぎず"},
+					"雪景鵲図",
+					{"/ruby"},
+					"』这样的名字。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00164",
+		linknext = "block_00166",
+		line = 653,
+	},
+	block_00166 = {
+		{"bgm", stop=1, time=1000},
+		{"se", stop=1, id=-1, time=1000},
+		{"vostop", stop=1, time=1000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=1000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"bgm", file="bgm152", time=25000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我那天。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00165",
+		linknext = "block_00167",
+		line = 664,
+	},
+	block_00167 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"在喜鹊花瓶的完成品前，我开了一瓶1996年产的凯隆世家庄园",
+					{"rt2"},
+					"红葡萄酒。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00166",
+		linknext = "block_00168",
+		line = 668,
+	},
+	block_00168 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"现在喝的话价值不菲，但在当时不算年份酒，没有",
+					{"rt2"},
+					"那么贵。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00167",
+		linknext = "block_00169",
+		line = 672,
+	},
+	block_00169 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"那时的酒真好喝啊。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00168",
+		linknext = "block_00170",
+		line = 675,
+	},
+	block_00170 = {
+		{"msgoff"},
+		{"bg", file="zev_etc_01_09", path=":ev/ev_etc_01/", set="ev_etc_01", ax=1920, ay=1080, bx=-960, by=-540, sync=0},
+		{"extrans"},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"对了对了，『雪景鵲図花瓶』完成后，利摩日大学的教授给了我",
+					{"rt2"},
+					"歌剧票作为饯别礼。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00169",
+		linknext = "block_00171",
+		line = 687,
+	},
+	block_00171 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我一看到那张票上的剧名就瞪大了眼睛。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00170",
+		linknext = "block_00172",
+		line = 690,
+	},
+	block_00172 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"看到这样的我，教授开心地笑了。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00171",
+		linknext = "block_00173",
+		line = 693,
+	},
+	block_00173 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"「和喜鹊连结在一起不也挺好吗？」，他说。",
+					{"rt2"},
+					"对此我只能苦笑。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00172",
+		linknext = "block_00174",
+		line = 697,
+	},
+	block_00174 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"就这样我从利摩日沿30号高速公路北上，从145号国道沿着中欧大西洋公路一路飞驰，途中吃了饭，去了洗手间。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00173",
+		linknext = "block_00175",
+		line = 700,
+	},
+	block_00175 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"穿过蒙勃朗隧道，千里迢迢来到意大利～♪",
+					{"rt2"},
+					"这样的感觉到了米兰。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00174",
+		linknext = "block_00176",
+		line = 704,
+	},
+	block_00176 = {
+		{"bgm", stop=1, time=12000},
+		{"text"},
+		text = {
+			ja = {
+				{
+					"教授给我看的歌剧名字叫『La gazza ladra』（罗西尼的《鹊贼》）。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00175",
+		linknext = "block_00177",
+		line = 709,
+	},
+	block_00177 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"日语名字叫『泥棒カササギ』。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00176",
+		linknext = "block_00178",
+		line = 712,
+	},
+	block_00178 = {
+		{"text"},
+		text = {
+			ja = {
+				{
+					"我很喜欢这部歌剧。",
+					{"rt2"},
+				},
+			},
+		},
+		linkback = "block_00177",
+		linknext = "block_00179",
+		line = 715,
+	},
+	block_00179 = {
+		{"bgm", stop=1, time=3000},
+		{"se", stop=1, id=-1, time=3000},
+		{"vostop", stop=1, time=3000},
+		{"ntclear"},
+		{"cgdel", id=-1},
+		{"bg", time=3000, file="black", path=":bg/"},
+		{"cacheclear"},
+		{"ex", time=1000, func="wait"},
+		{"excall", file="01_04_2"},
+		{"text"},
+		linkback = "block_00178",
+		line = 722,
+	},
+	label = {
+		top = { block="block_00000", label=1 },
+	},
+}
