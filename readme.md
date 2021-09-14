@@ -24,6 +24,10 @@
 
 将本项目解压到游戏根目录即可生效
 
+### 讨论板
+
+如果关于有问题或者任何建议，都可以去本项目的[Issues](https://github.com/ToadStudio/sakuranotoki_trail_chs/issues)区域提交一个issue。
+
 ### Agnitio
 
 `SimiusCodicis01`, `LuciusAxellius`, `kisakichan`
