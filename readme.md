@@ -1,5 +1,7 @@
 # 樱之刻体验版个人汉化项目
 
+![Version](https://img.shields.io/badge/Version-v1.0-ff96b4)
+
 ### 汉化进度 / Progressus
 
 - `01_01.ast` 100% 翻译完成； 0% 校对完成
