@@ -27,7 +27,7 @@
 
 [下载最新版（即最新的源代码）](https://github.com/ToadStudio/sakuranotoki_trail_chs/archive/refs/heads/master.zip)
 
-[稳定版本发布页面（即Releases）](https://github.com/ToadStudio/sakuranotoki_trail_chsreleases/)
+[稳定版本发布页面（即Releases）](https://github.com/ToadStudio/sakuranotoki_trail_chs/releases/)
 
 下载完成后，将本项目解压到游戏根目录即可生效
 
